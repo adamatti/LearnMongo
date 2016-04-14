@@ -11,6 +11,7 @@ const config = require("./config"),
 ;
 
 ////////////////////////////////////////////////////////// Magic stuffs to make promises work
+//http://stackoverflow.com/questions/23771853/how-can-i-promisify-the-mongodb-native-javascript-driver-using-bluebird
 Promise.promisifyAll(collection.prototype);
 Promise.promisifyAll(mongoClient);
 collection.prototype._find = collection.prototype.find;
