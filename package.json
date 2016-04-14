@@ -1,0 +1,20 @@
+{
+  "name": "learn-mongo",
+  "version": "0.0.1",
+  "description": "Pet project to learn mongo",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "keywords": [
+    "mongo"
+  ],
+  "author": "Marcelo Adamatti",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "log4js": "^0.6.33",
+    "mongodb": "^2.1.16",
+    "uuid-v4": "^0.1.0"
+  }
+}
